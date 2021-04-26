@@ -1,0 +1,327 @@
+html{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 430px auto;
+
+}
+.card{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #4A484B;
+    background-color: white;
+    box-sizing: border-box;
+    transform: translate(50px,-50px);
+    animation-name: card;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.card1{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aqua;
+    border: 2px solid #4A484B;
+    box-sizing: border-box;
+    animation-name: card1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.card2{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    border: 2px solid #4A484B;
+    box-sizing: border-box;
+    animation-name: card2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.card3{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    border: 2px solid #4A484B;
+    box-sizing: border-box;
+    animation-name: card3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+.card4{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 2px solid #4A484B;
+    box-sizing: border-box;
+    animation-name: card4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes card {
+    8.3%{
+        transform: translate(50px);
+        background-color: white;
+    }
+    16.6%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    24.9%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    33.2%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    41.5%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    49.8%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    58.1%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    66.4%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    74.7%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    83%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    91.3%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+    100%{
+        transform: translate(50px);
+        background-color: aqua;
+    }
+}
+@keyframes card1 {
+    8.3%{
+        transform: translateY(50px);
+        background-color: aqua;
+    }
+    16.6%{
+        transform: translate(50px,50px);
+        background-color: white;
+    }
+    24.9%{
+        transform: translate(50px,0);
+        background-color: white;
+    }
+    33.2%{
+        transform: translate(50px,0);
+        background-color: aquamarine;
+    }
+    41.5%{
+        transform: translate(50px,0);
+        background-color: aquamarine;
+    }
+    49.8%{
+        transform: translate(50px,0);
+        background-color: aquamarine;
+    }
+    58.1%{
+        transform: translate(50px,0);
+        background-color: aquamarine;
+    }
+    66.4%{
+        transform: translate(50px,0);
+        background-color: aquamarine;
+    }
+    74.7%{
+        transform: translate(50px,0);
+        background-color: aquamarine;
+    }
+    83%{
+        transform: translate(50px,0);
+        background-color: aquamarine;
+    }
+    91.3%{
+        transform: translate(50px,-50px);
+        background-color: white;
+    }
+    100%{
+        transform: translate(0,-50px);
+        background-color: white;
+    }
+}
+@keyframes card2 {
+    8.3%{
+        transform: translateY(0);
+        background-color: aquamarine;
+
+    }
+    16.6%{
+        transform: translateY(0);
+        background-color: aquamarine;
+    }
+    24.9%{
+        transform: translateY(-50px);
+        background-color: aquamarine;
+    }
+    33.2%{
+        transform: translate(50px,-50px);
+        background-color: white;
+    }
+    41.5%{
+        transform: translate(50px,0);
+        background-color: lightgreen;
+    }
+    49.8%{
+        transform: translate(50px,0);
+        background-color: lightgreen;
+    }
+    58.1%{
+        transform: translate(50px,0);
+        background-color: #90ee90;
+    }
+    66.4%{
+        transform: translate(50px,0);
+        background-color: #90ee90;
+    }
+    74.7%{
+        transform: translate(50px,50px);
+        background-color: white;
+    }
+    83%{
+        transform: translate(0,50px);
+        background-color: white;
+    }
+    91.3%{
+        transform: translate(0,0);
+        background-color: aquamarine;
+    }
+    100%{
+        transform: translate(0,0);
+        background-color: aquamarine;
+    }
+}
+@keyframes card3 {
+    8.3%{
+        transform: translate(0);
+        background-color: lightgreen;
+    }
+    16.6%{
+        transform: translate(0);
+
+        background-color: lightgreen;
+    }
+    24.9%{
+        transform: translate(0);
+        background-color: lightgreen;
+    }
+    33.2%{
+        transform: translate(0);
+        background-color: lightgreen;
+    }
+    41.5%{
+        transform: translate(0,50px);
+        background-color: white;
+    }
+    49.8%{
+        transform: translate(50px,50px);
+        background-color: white;
+    }
+    58.1%{
+        transform: translate(50px,0);
+        background-color: yellow;
+    }
+    66.4%{
+        transform: translate(50px,0);
+        background-color: yellow;
+    }
+    74.7%{
+        transform: translate(50px,0);
+        background-color: yellow;
+    }
+    83%{
+        transform: translate(50px,0);
+        background-color: yellow;
+    }
+    91.3%{
+        transform: translate(50px,0);
+        background-color: yellow;
+    }
+    100%{
+        transform: translate(50px,0);
+        background-color: yellow;
+    }
+}
+@keyframes card4 {
+    8.3%{
+        transform: translate(0);
+        background-color: yellow;
+    }
+    16.6%{
+        transform: translate(0);
+        background-color: yellow;
+    }
+    24.9%{
+        transform: translate(0);
+        background-color: yellow;
+    }
+    33.2%{
+        transform: translate(0);
+        background-color: yellow;
+    }
+    41.5%{
+        transform: translate(0);
+        background-color: yellow;
+    }
+    49.8%{
+        transform: translate(0);
+        background-color: yellow;
+    }
+    58.1%{
+        transform: translate(0,-50px);
+        background-color: white;
+    }
+    66.4%{
+        transform: translate(-50px,-50px);
+        background-color: white;
+    }
+    74.7%{
+        transform: translate(-50px,0);
+        background-color: #90ee90;
+    }
+    83%{
+        transform: translate(-50px,0);
+        background-color: #90ee90;
+    }
+    91.3%{
+        transform: translate(-50px,0);
+        background-color: #90ee90;
+    }
+    100%{
+        transform: translate(-50px,0);
+        background-color: #90ee90;
+    }
+}
